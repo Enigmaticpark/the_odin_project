@@ -1,0 +1,58 @@
+@import url('http://overpass-30e2.kxcdn.com/overpass.css');
+
+body{
+	width: 100%;
+	height: 100%;
+	padding: auto;
+	margin: auto;
+    background: rgb(130, 255, 247); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, rgb(130, 255, 247), rgb(32,113,199)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, rgb(130, 255, 247), rgb(32,113,199)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, rgb(130, 255, 247), rgb(32,113,199)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, rgb(130, 255, 247), rgb(32,113,199)); /* Standard syntax */
+}
+
+header{
+	width:100%;
+	font-family: 'overpass';
+	font-weight: bold;
+	font-size: 200%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+head{
+	width: 100%;
+	text-align: center;
+}
+input{
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+div{
+	margin: auto;
+	width: 75%;
+} 
+
+#container{
+	width:100%;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid #FFFFFF;
+	width: 100%;
+}
+
+table tr{
+	border: 1px solid #FFFFFF;
+}
+
+table td{
+	border: 1px solid #FFFFFF;
+	background-color: rgba(192,192,192,0.8);
+}
+
